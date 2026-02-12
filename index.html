@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Story of Mr’s Lee</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #ffd6e8, #fff5fa);
+      color: #333;
+    }
+
+    .cover {
+      height: 100vh;
+      background: url('cover.jpg') center/cover no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cover::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 170, 210, 0.55);
+    }
+
+    .cover-text {
+      position: relative;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      animation: fadeDown 1.5s ease;
+       z-index: 2; 
+    }
+
+    .cover-text h1 {
+      font-size: 2.3rem;
+      font-weight: 700;
+    }
+
+    .cover-text p {
+      margin-top: 10px;
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .title h2 {
+      color:#ff33cc;
+      font-size: 1.8rem;
+    }
+
+    .box {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      animation: fadeUp 1.2s ease;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .flex {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .flex img {
+      width: 160px;
+      border-radius: 15px;
+    }
+
+    .flex p {
+      flex: 1;
+      line-height: 1.8;
+      text-align: justify;
+      font-size: 0.95rem;
+    }
+
+    .spotify {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .spotify a {
+      display: inline-block;
+      padding: 14px 30px;
+      background: #1db954;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .spotify a:hover {
+      background: #169c46;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #ffd6e8;
+      padding: 30px;
+      text-align: center;
+      color: #a61e5c;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- COVER -->
+  <div class="cover">
+    <div class="cover-text">
+      <h1>The Story of Mr’s Lee</h1>
+      <p>just a girl, her thoughts, and soft story about someone who feels special</p>
+    </div>
+  </div>
+
+  <!-- WHO IS MR'S LEE -->
+  <section>
+    <div class="title">
+      <h2>Who is Mr’s Lee?</h2>
+    </div>
+
+    <div class="box">
+      <p style="line-height: 1.8; font-size: 0.95rem; text-align: justify;">
+        Mr’s Lee adalah seseorang yang aku maksud sebagai <b>Lee Haechan</b>.  
+        Sebutan ini aku pakai karena rasanya lebih personal dan lucuu aja hehe.
+        <br><br>
+        Haechan adalah seseorang yang punya cara sendiri untuk bikin orang merasa terhibur dan nyaman.
+        Dari caranya berbicara, tertawa, dan sifatnya yang humoris,  
+        semuanya terasa hangat dan penuh ketulusan.
+        <br><br>
+        Jadi kalau di bagian selanjutnya aku menyebut nama <b>Haechan</b>,  
+        that’s still Mr’s Lee — orang yang sama, dengan rasa kagum yang sama.
+      </p>
+    </div>
+  </section>
+
+  <!-- HAECHAN -->
+  <section>
+    <div class="title">
+      <h2>Reasons why I Love Him (and yes, this is personal)</h2>
+    </div>
+
+    <div class="box flex">
+      <img src="haechan1.jpg">
+      <p>
+        Let’s start from the obvious one: <b>his voice.</b>  
+        Suara Haechan itu warm, clear, dan langsung nempel di kepala.  
+        Sekali dengar, langsung tau kalau itu suara dia.  
+        Suara dia lucu banget dan punya ciri khas tersendiri.
+        Aku suka suara dia ketika dia nyanyi.
+      </p>
+    </div>
+
+    <div class="box flex">
+      <p>
+        I really admire how hardworking Haechan is.  
+        Di balik image-nya yang playful dan ceria,  
+        dia serius banget sama apa yang dia kerjain.  
+        Selalu all out, dan selalu membuat aku kagum.
+        
+      </p>
+      <img src="haechan2.jpg">
+    </div>
+
+    <div class="box flex">
+      <img src="haechan3.jpg">
+      <p>
+        Personality-wise, Haechan itu sunshine person.  
+        Funny, bright, dan energinya gampang nular.  
+        Cara dia ketawa dan ngobrol tuh terasa real —  
+        not forced, not fake.
+      </p>
+    </div>
+
+    <div class="box flex">
+      <p>
+        On stage, Haechan is powerful.  
+        Off stage, he’s warm and comforting.  
+        That contrast is what makes him special,  
+        dan bikin aku terus admire him.
+        Oiya(dia ganteng banget kalau lagi konser).
+      </p>
+      <img src="haechan4.jpg">
+    </div>
+  </section>
+
+  <!-- SONG -->
+  <section>
+    <div class="title">
+      <h2>Song That Feels Like Haechan</h2>
+    </div>
+
+    <div class="box">
+      <p style="line-height: 1.8; font-size: 0.95rem; text-align: justify;">
+        “<b>10,000 Hours</b>” feels so Haechan coded.  
+        Gatau kenapa aku suka banget lagu ini sambil liat foto haechan.
+        <br><br>
+         Kadang mikir, “kok cocok ya?”  
+  Tapi yaudah sih, some things don’t need logic.
+  Lagu ini comfort, Haechan comfort,
+  dan aku? ya menikmati aja
+      </p>
+
+      <div class="spotify">
+        <p>Listen to 10,000 Hours 🎧</p><br>
+        <a href="https://open.spotify.com/track/2wrJq5XKLnmhRXHIAf9xBa" target="_blank">
+          Open Spotify
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Made with 💗 by Kayla XI-12
+  </footer>
+
+</body>
+</html>
